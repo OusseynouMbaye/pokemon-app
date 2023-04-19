@@ -7,7 +7,17 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
+import { defineComponent, ref } from 'vue'
+
+// export default defineComponent({
+//   name: 'HelloWorld',
+//   // props: {
+//   //   msg: {
+//   //     type: String,
+//   //     default: 'Hello World',
+//   //   },
+//   // },
+// })
 
 defineProps<{ msg: string }>()
 
