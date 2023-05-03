@@ -6,15 +6,8 @@
   </div>
 </template>
 
-<script lang="ts">
+<script lang="ts" setup>
 import HelloWorld from '../components/HelloWorld.vue'
-
-export default {
-  name: 'HomeView',
-  components: {
-    HelloWorld,
-  },
-}
 </script>
 
 <style scoped></style>

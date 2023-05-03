@@ -1,5 +1,3 @@
-import { defineComponent } from "vue";
-
 <template>
   <div>
     <Header />
