@@ -7,15 +7,8 @@ import { defineComponent } from "vue";
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue'
+<script lang="ts" setup>
 import Header from './components/Header.vue'
-export default defineComponent({
-  name: 'App',
-  components: {
-    Header,
-  },
-})
 </script>
 
 <style scoped></style>
