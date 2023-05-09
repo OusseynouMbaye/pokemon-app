@@ -25,9 +25,9 @@
 <script lang="ts" setup></script>
 
 <style lang="css" scoped>
-.header_content {
-  /* display: flex;
+/*.header_content {
+   display: flex;
     justify-content: center;
-    gap: 15px; */
-}
+    gap: 15px; 
+}*/
 </style>
