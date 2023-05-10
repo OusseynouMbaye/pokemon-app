@@ -4,9 +4,9 @@
       <img :src="poke.img" alt="pokes.title" />
       <h2>{{ poke.title }}</h2>
       <div class="poke-stats">
-        <!-- <div v-for="type in poke.type" :key="type">
-        <span>{{ type }}</span>
-            </div> -->
+        <!-- <div v-for="poketype in poke.type" :key="poketype">
+          <span>{{ poketype }}</span>
+        </div> -->
 
         <div v-for="(value, key) in poke.stats" :key="key">
           <div class="flex flex-col">
@@ -38,8 +38,11 @@ defineProps({
   /* margin-bottom: 18px; */
 }
 .poke-card:hover {
-  transform: scale(1.01);
+  transform: scaleX(1.1) scaleY(1.1);
+  box-shadow: 0px 8px 47px 0px rgba(0, 0, 0, 0.07);
   box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
+  transition: all 0.2s ease-in-out;
 }
 .poke-card img {
   width: 100%;

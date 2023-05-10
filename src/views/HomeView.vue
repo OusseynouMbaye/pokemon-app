@@ -1,5 +1,5 @@
 <template>
-  <div class="grid gap-5 justify-center m-16">
+  <div class="grid gap-6 justify-center m-16">
     <!-- <PokemonCard v-for="poke in pokes" :key="poke.id" :event="poke" /> -->
     <PokemonCard v-for="poke in pokes" :key="poke.id" :poke="poke" />
   </div>
@@ -50,6 +50,48 @@ const pokes = ref([
       // 'special-attack': 100,
       // 'special-defense': 100,
       speed: 80,
+    },
+  },
+  {
+    id: 4,
+    title: 'Charmander',
+    img: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png',
+    type: ['fire'],
+    stats: {
+      hp: 39,
+      attack: 52,
+      defense: 43,
+      // 'special-attack': 60,
+      // 'special-defense': 50,
+      speed: 65,
+    },
+  },
+  {
+    id: 5,
+    title: 'Charmeleon',
+    img: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png',
+    type: ['fire'],
+    stats: {
+      hp: 58,
+      attack: 64,
+      defense: 58,
+      // 'special-attack': 80,
+      // 'special-defense': 65,
+      speed: 80,
+    },
+  },
+  {
+    id: 6,
+    title: 'Charizard',
+    img: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png',
+    type: ['fire', 'flying'],
+    stats: {
+      hp: 78,
+      attack: 84,
+      defense: 78,
+      // 'special-attack': 109,
+      // 'special-defense': 85,
+      speed: 100,
     },
   },
 ])

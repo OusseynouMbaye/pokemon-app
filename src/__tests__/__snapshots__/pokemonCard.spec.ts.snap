@@ -1,0 +1,32 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`PokemonCard > should render pokemon object 1`] = `
+"<div data-v-63ebbf9b=\\"\\" class=\\"poke-card\\">
+  <div data-v-63ebbf9b=\\"\\"><img data-v-63ebbf9b=\\"\\" src=\\"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/25.svg\\" alt=\\"pokes.title\\">
+    <h2 data-v-63ebbf9b=\\"\\">Pikachu</h2>
+    <div data-v-63ebbf9b=\\"\\" class=\\"poke-stats\\">
+      <!-- <div v-for=\\"type in poke.type\\" :key=\\"type\\">
+        <span>{{ type }}</span>
+            </div> -->
+      <div data-v-63ebbf9b=\\"\\">
+        <div data-v-63ebbf9b=\\"\\" class=\\"flex flex-col\\"><span data-v-63ebbf9b=\\"\\">hp: </span><span data-v-63ebbf9b=\\"\\">35</span></div>
+      </div>
+      <div data-v-63ebbf9b=\\"\\">
+        <div data-v-63ebbf9b=\\"\\" class=\\"flex flex-col\\"><span data-v-63ebbf9b=\\"\\">attack: </span><span data-v-63ebbf9b=\\"\\">55</span></div>
+      </div>
+      <div data-v-63ebbf9b=\\"\\">
+        <div data-v-63ebbf9b=\\"\\" class=\\"flex flex-col\\"><span data-v-63ebbf9b=\\"\\">defense: </span><span data-v-63ebbf9b=\\"\\">40</span></div>
+      </div>
+      <div data-v-63ebbf9b=\\"\\">
+        <div data-v-63ebbf9b=\\"\\" class=\\"flex flex-col\\"><span data-v-63ebbf9b=\\"\\">special-attack: </span><span data-v-63ebbf9b=\\"\\">50</span></div>
+      </div>
+      <div data-v-63ebbf9b=\\"\\">
+        <div data-v-63ebbf9b=\\"\\" class=\\"flex flex-col\\"><span data-v-63ebbf9b=\\"\\">special-defense: </span><span data-v-63ebbf9b=\\"\\">50</span></div>
+      </div>
+      <div data-v-63ebbf9b=\\"\\">
+        <div data-v-63ebbf9b=\\"\\" class=\\"flex flex-col\\"><span data-v-63ebbf9b=\\"\\">speed: </span><span data-v-63ebbf9b=\\"\\">90</span></div>
+      </div>
+    </div>
+  </div>
+</div>"
+`;
