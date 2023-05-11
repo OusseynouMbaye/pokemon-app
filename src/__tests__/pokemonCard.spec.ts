@@ -9,10 +9,12 @@ describe('PokemonCard', () => {
     const wrapper = mount(PokemonCard, {
       props: {
         // objet
+        // use the interface to define the props
         poke: {
-          id: 25,
+          id: Number, // Pikachu
           title: 'Pikachu',
           img: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/25.svg',
+          types: ['electric'],
           stats: {
             hp: 35,
             attack: 55,

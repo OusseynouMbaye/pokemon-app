@@ -4,9 +4,9 @@
       <img :src="poke.img" alt="pokes.title" />
       <h2>{{ poke.title }}</h2>
       <div class="poke-stats">
-        <!-- <div v-for="poketype in poke.type" :key="poketype">
-          <span>{{ poketype }}</span>
-        </div> -->
+        <!-- <div v-for="type in poke.type" :key="type">
+        <span>{{ type }}</span>
+            </div> -->
 
         <div v-for="(value, key) in poke.stats" :key="key">
           <div class="flex flex-col">

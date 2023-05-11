@@ -7,7 +7,7 @@
 
         <div class="hidden md:flex space-x-6">
           <h2 class="hover:text-darkGrayishBlue">
-            <router-link to="/">Home Page</router-link>
+            <router-link to="/">Pokedex Page</router-link>
           </h2>
           <h2 class="hover:text-darkGrayishBlue">
             <router-link to="/about">About Page</router-link>

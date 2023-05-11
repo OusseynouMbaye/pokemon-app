@@ -11,10 +11,10 @@ import { ref } from 'vue'
 
 const pokes = ref([
   {
-    id: 1,
+    id: 'eee',
     title: 'Bulbasaur',
     img: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png',
-    type: ['grass', 'poison'],
+    types: ['grass', 'poison'],
     stats: {
       hp: 45,
       attack: 49,
@@ -28,7 +28,7 @@ const pokes = ref([
     id: 2,
     title: 'Ivysaur',
     img: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png',
-    type: ['grass', 'poison'],
+    types: ['grass', 'poison'],
     stats: {
       hp: 60,
       attack: 62,
@@ -42,7 +42,7 @@ const pokes = ref([
     id: 3,
     title: 'Venusaur',
     img: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png',
-    type: ['grass', 'poison'],
+    types: ['grass', 'poison'],
     stats: {
       hp: 80,
       attack: 82,
@@ -56,7 +56,7 @@ const pokes = ref([
     id: 4,
     title: 'Charmander',
     img: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png',
-    type: ['fire'],
+    types: ['fire'],
     stats: {
       hp: 39,
       attack: 52,
@@ -70,7 +70,7 @@ const pokes = ref([
     id: 5,
     title: 'Charmeleon',
     img: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png',
-    type: ['fire'],
+    types: ['fire'],
     stats: {
       hp: 58,
       attack: 64,
@@ -84,7 +84,7 @@ const pokes = ref([
     id: 6,
     title: 'Charizard',
     img: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png',
-    type: ['fire', 'flying'],
+    types: ['fire', 'flying'],
     stats: {
       hp: 78,
       attack: 84,
