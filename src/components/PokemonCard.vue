@@ -1,7 +1,7 @@
 <template>
   <div class="poke-card">
     <div>
-      <img :src="poke.image" alt="pokes.title" />
+      <img :src="poke.image" alt="poke.title" />
       <h2>{{ poke.title }}</h2>
       <div class="poke-stats">
         <!-- <div v-for="type in poke.type" :key="type">
