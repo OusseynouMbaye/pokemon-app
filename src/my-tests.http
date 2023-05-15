@@ -1,0 +1,13 @@
+get ('https://pokeapi.co/api/v2/pokemon/')
+.then(response => response.json())
+.then(data => {
+    console.log(data);
+    const pokemon = data.results;
+    const pokemonList = document.getElementById('pokemon-list');
+    pokemon.forEach(p => {
+        const listItem = document.createElement('li');
+        listItem.innerText = p.name;
+        pokemonList.appendChild(listItem);
+    });
+})
+
