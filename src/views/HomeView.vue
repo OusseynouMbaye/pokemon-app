@@ -14,7 +14,7 @@ const pokes = ref([])
 
 onMounted(() => {
   axios
-    .get('https://pokebuildapi.fr/api/v1/pokemon/limit/10')
+    .get('https://my-json-server.typicode.com/OusseynouMbaye/pokemon-app/pokes')
     .then((res) => {
       // console.log(res.data)
       pokes.value = res.data
