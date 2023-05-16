@@ -7,14 +7,13 @@
 
 <script lang="ts" setup>
 import { ref, onMounted } from 'vue'
-import axios from 'axios'
+import PokemonService from '@/services/PokemonService.js'
 import PokemonCard from '@/components/PokemonCard.vue'
 
 const pokes = ref([])
 
 onMounted(() => {
-  axios
-    .get('https://my-json-server.typicode.com/OusseynouMbaye/pokemon-app/pokes')
+  PokemonService.getPokemons()
     .then((res) => {
       // console.log(res.data)
       pokes.value = res.data

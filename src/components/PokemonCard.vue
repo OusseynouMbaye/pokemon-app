@@ -1,21 +1,23 @@
 <template>
   <div class="poke-card">
-    <div>
-      <img :src="poke.image" alt="poke.title" />
-      <h2>{{ poke.title }}</h2>
-      <div class="poke-stats">
-        <!-- <div v-for="type in poke.type" :key="type">
+    <router-link :to="{ name: 'PokemonDetails', params: { id: poke.id } }">
+      <div>
+        <img :src="poke.image" alt="poke.title" />
+        <h2 class="text-center">{{ poke.title }}</h2>
+        <div class="poke-stats gap-4">
+          <!-- <div v-for="type in poke.type" :key="type">
         <span>{{ type }}</span>
             </div> -->
 
-        <div v-for="(value, key) in poke.stats" :key="key">
-          <div class="flex flex-col">
-            <span>{{ key }}: </span>
-            <span>{{ value }}</span>
+          <div v-for="(value, key) in poke.stats" :key="key">
+            <div class="flex gap-1 flex-col-reverse items-center">
+              <span>{{ key }} </span>
+              <span>{{ value }}</span>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </router-link>
   </div>
 </template>
 
